@@ -150,6 +150,10 @@
   margin-right: 0.3125rem;
 }
 
+.mr15 {
+  margin-right: 15px;
+}
+
 .header-search {
   display: flex;
   height: 5.5125rem;
@@ -441,6 +445,7 @@ a {
 .gray__wrapper {
   flex: 1;
   background-color: #f5f5f5;
+  padding-bottom: 70px;
 }
 
 .shopee-category {
@@ -660,4 +665,252 @@ a {
 
 .shopee__banner2 {
   margin-top: 20px;
+  height: 110px;
+  background-image: url(../img/banner2.png);
+}
+
+.ecCXWo {
+  text-decoration: none;
+  color: #d0011b;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.0625rem;
+  align-self: center;
+}
+
+.shopee__mall {
+  background-color: #fff;
+}
+
+.sm__header {
+  justify-content: space-between;
+  height: 61px;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.sm__content {
+  position: relative;
+  background-color: #fff;
+  height: 472px;
+}
+
+.banner-image {
+  padding: 10px 0px 10px 10px;
+}
+
+.sm__item {
+  position: relative;
+  width: 180px;
+  height: 216px;
+  margin: 10px;
+  background-image: url(https://cf.shopee.vn/file/a6e5f3cb30a25b4f337d65da16e58371_xhdpi);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.center__bot {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+}
+
+.shopee__trend {
+  margin-top: 20px;
+  height: 161px;
+  background-color: #fff;
+}
+
+.shopee__hottrend {
+  margin-top: 20px;
+  height: 351px;
+  background-color: #fff;
+}
+
+.st_header {
+  padding: 0px 20px;
+  height: 61px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.st__items {
+  height: 100px;
+}
+
+.sht__items {
+  position: relative;
+  height: 260px;
+  padding-bottom: 30px;
+}
+
+.st__item {
+  flex: 0 1 auto;
+  width: 20%;
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  padding-right: 0.625rem;
+}
+
+.sht__item {
+  flex: 0 1 auto;
+  width: 200px;
+  box-sizing: border-box;
+  padding: 20px 10px;
+}
+
+.normal__font {
+  font-size: 1rem !important;
+}
+
+.xs__font {
+  font-size: 0.75rem !important;
+}
+
+.small__font {
+  font-size: 0.875rem !important;
+}
+
+.v-separate::after {
+  content: "";
+  display: block;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 100%;
+  background-color: #222;
+  opacity: 0.25;
+  width: 1px;
+}
+
+.sbg__img {
+  height: 100px;
+  width: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.m__img {
+  height: 180px;
+  width: 180px;
+  object-fit: contain;
+}
+
+.m2__img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+
+.sti__title {
+  padding: 20px 10px 20px 20px;
+  width: 130px;
+  height: 77px;
+}
+
+.shti__title {
+  margin-top: 20px;
+  font-size: 1.125rem;
+}
+
+.shopee__top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 2rem;
+  height: 2.5rem;
+  background-size: 2rem 2.5rem;
+  background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepage/06720e49514cbd94b7552496b4de454a.png);
+}
+
+.shopee__suggest {
+  margin-top: 20px;
+  height: 61px;
+  background-color: #fff;
+  align-items: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.td__suggest {
+  padding: 15px 46px;
+  color: #ee4d2d;
+  border-bottom: 4px solid #ee4d2d;
+  font-weight: 500px;
+}
+
+.td__items-wrapper {
+  margin-top: 5px;
+}
+
+.td__item {
+  background-color: #fff;
+  margin: 5px;
+  width: 200px;
+  height: 292px;
+}
+
+.td__desc {
+  width: 200px;
+  height: 82px;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.shopee__price {
+  color: #ee4d2d;
+  font-size: 1rem;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+}
+
+.shopee__sold {
+  font-size: 0.75rem;
+  color: #000;
+  opacity: 0.65;
+  font-weight: 200;
+}
+
+.pcja {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item__tag {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 188px;
+  height: fit-content;
+}
+
+.shopee__more {
+  padding: 0.75rem 0px;
+  justify-content: center;
+  max-width: 24.375rem;
+  height: 2.5rem;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  font-weight: 500px;
+  text-align: center;
+}
+
+.footer {
+  text-align: justify;
+  border-top: 4px solid #ee4d2d;
+}
+
+p {
+  font-size: 0.75rem;
+  line-height: 1re;
+}
+
+h5 {
+  color: #000;
+  font-weight: bold;
 }
